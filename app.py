@@ -41,26 +41,26 @@ import joblib
 
 # st.markdown(page_bg,unsafe_allow_html=True)
 
-def load_bootstrap():
-        return st.markdown("""<link rel="stylesheet" 
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-        crossorigin="anonymous">""", unsafe_allow_html=True)
+# def load_bootstrap():
+#         return st.markdown("""<link rel="stylesheet" 
+#         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+#         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+#         crossorigin="anonymous">""", unsafe_allow_html=True)
 
-with st.sidebar:
+# with st.sidebar:
     
-    load_bootstrap()
-    st.markdown("""<h4 style='text-align: center; color: black;'>
-    This Application was developed by Mateus Prevelato Athayde. 
-    You can find my Linkedin and GitHub profiles below:</h4>""",unsafe_allow_html=True)
-    st.markdown(f"""<h4 style='text-align: center; color: black;'>
-     <a style='text-align: center; color: black;' type="button" class="btn btn-warning btn-lg" 
-     href = "https://github.com/MPrevelato/Crop_Recommendation_System">GitHub</a> <a style='text-align: center; color: black;' 
-     type="button" class="btn btn-warning btn-lg" 
-     href = "https://www.linkedin.com/in/mateus-prevelato/">Linkedin</a></h4>""", unsafe_allow_html=True)
+#     load_bootstrap()
+#     st.markdown("""<h4 style='text-align: center; color: black;'>
+#     This Application was developed by Mateus Prevelato Athayde. 
+#     You can find my Linkedin and GitHub profiles below:</h4>""",unsafe_allow_html=True)
+#     st.markdown(f"""<h4 style='text-align: center; color: black;'>
+#      <a style='text-align: center; color: black;' type="button" class="btn btn-warning btn-lg" 
+#      href = "https://github.com/MPrevelato/Crop_Recommendation_System">GitHub</a> <a style='text-align: center; color: black;' 
+#      type="button" class="btn btn-warning btn-lg" 
+#      href = "https://www.linkedin.com/in/mateus-prevelato/">Linkedin</a></h4>""", unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: black;'>Crop Recommendation System</h1>", unsafe_allow_html=True)
-st.markdown("<h5 style='text-align: center;'>This Application predict what is the best crop to plant based on NPK values and Weather Conditions!</h5>", unsafe_allow_html= True)
+# st.markdown("<h1 style='text-align: center; color: black;'>Crop Recommendation System</h1>", unsafe_allow_html=True)
+# st.markdown("<h5 style='text-align: center;'>This Application predict what is the best crop to plant based on NPK values and Weather Conditions!</h5>", unsafe_allow_html= True)
 
 colx, coly, colz = st.columns([1,4,1], gap = 'medium')
 with coly:
