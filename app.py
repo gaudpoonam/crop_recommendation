@@ -12,12 +12,12 @@ from joblib import Parallel, delayed
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-pd.options.display.max_colwidth = 2000
-st.set_page_config(
-    page_title="Crop Recommendation System",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
+# pd.options.display.max_colwidth = 2000
+# st.set_page_config(
+#     page_title="Crop Recommendation System",
+#     layout="wide",
+#     initial_sidebar_state="expanded",
+# )
 
 # page_bg = f"""
 # <style>
@@ -39,7 +39,7 @@ st.set_page_config(
 # </style>
 # """
 
-st.markdown(page_bg,unsafe_allow_html=True)
+# st.markdown(page_bg,unsafe_allow_html=True)
 
 def load_bootstrap():
         return st.markdown("""<link rel="stylesheet" 
