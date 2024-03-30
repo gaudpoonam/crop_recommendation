@@ -19,25 +19,25 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-page_bg = f"""
-<style>
-[data-testid="stAppViewContainer"] {{
-background-color:#ffc107;
+# page_bg = f"""
+# <style>
+# [data-testid="stAppViewContainer"] {{
+# background-color:#ffc107;
 
-}}
-[data-testid="stSidebar"] {{
-background-color:#8C564B;
+# }}
+# [data-testid="stSidebar"] {{
+# background-color:#8C564B;
 
-}}
-[data-testid="stHeader"] {{
-background-color:#ffc107;
-}}
-[data-testid="stToolbar"] {{
-background-color:#ffc107;
+# }}
+# [data-testid="stHeader"] {{
+# background-color:#ffc107;
+# }}
+# [data-testid="stToolbar"] {{
+# background-color:#ffc107;
 
-}}
-</style>
-"""
+# }}
+# </style>
+# """
 
 st.markdown(page_bg,unsafe_allow_html=True)
 
